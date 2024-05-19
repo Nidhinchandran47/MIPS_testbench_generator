@@ -19,9 +19,9 @@ The primary objective of this project is to streamline the microprocessor verifi
 
 ## Features
 
-- **32-bit processor**: Processor contain 32 32bit wide registers and each instruction is 32 bit.
+- **32-bit processor**: Processor contain 32 32-bit wide registers and each instruction is 32-bit.
 - **5 Stage pipeline**: Instruction Fetch, Decode, Execute, Memory Access, and Write-Back.
-- **Custom Instruction Set**: 24 6 bit custom instruction set.
+- **Custom Instruction Set**: 24 6-bit custom instruction set.
 - **Error Detection**: The script is able to detect errors in input assebly file.
 
 ### Instruction set
