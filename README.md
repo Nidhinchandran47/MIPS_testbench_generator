@@ -1,7 +1,9 @@
-# Automatic Test Bench Generation
+# TESTBENCH AUTOMATION ON A MIPS-BASED MICROPROCESSOR IMPLEMENTED IN VERILOG
 
-Welcome to the Automatic Test Bench Generation project! This tool is designed to automate the creation of test benches for hardware design verification. It aims to simplify and speed up the verification process, ensuring that hardware components function correctly according to their specifications.
+Welcome to my B.Tech Major project! This tool is designed to automate the creation of test benches for a custom designed MIPS processors for a given assembly file. 
 
+> 🚨 " THE GENERATED TESTBENCH IS NOT FOR *FULL FUNCTIONALTY VERIFICATION*, FOR A GIVEN ASSEMBLY CODE -> IT GENERATE A TESTBENCH TO RUN THAT ASSEMBLY CODE IN THIS MIPS PROCESSOR"
+ 
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -14,15 +16,15 @@ Welcome to the Automatic Test Bench Generation project! This tool is designed to
 
 ## Introduction
 
-In hardware design, creating test benches manually can be a time-consuming and error-prone process. The Automatic Test Bench Generation tool addresses this by automating the generation of test benches based on the design specifications and test scenarios. This not only accelerates the verification process but also improves the reliability of the tests.
+The primary objective of this project is to streamline the microprocessor verification process by developing a Python script capable of automating testbench generation from assembly programs. Manual testbench creation for complex microprocessors can be time-consuming and error-prone, hindering development efficiency. By automating this process, the project aims to significantly reduce development time and enhance productivity. The microprocessor's 5-stage pipeline architecture divides instruction execution into discrete stages: **Instruction Fetch, Decode, Execute, Memory Access, and Write-Back**. This approach facilitates concurrent instruction processing, thereby improving throughput. Leveraging the advantages of the MIPS 32 architecture, the project aims to create a comprehensive solution for microprocessor verification.
 
 ## Features
 
-- **Automated Test Bench Creation**: Generate test benches automatically from hardware design specifications.
-- **Customization Options**: Flexible configuration to accommodate various testing scenarios and requirements.
-- **Support for Multiple Languages**: Generate test benches in VHDL, Verilog, and SystemVerilog.
-- **Integration with CI/CD Pipelines**: Easily integrate with continuous integration and delivery pipelines to automate testing.
-- **User-Friendly Interface**: Simple command-line interface for ease of use.
+- **32-bit processor**: Processor contain 32 32bit wide registers and each instruction is 32 bit.
+- **5 Stage pipeline**: Instruction Fetch, Decode, Execute, Memory Access, and Write-Back.
+- **Custom Instruction Set**: 24 6 bit custom instruction.
+- ****: .
+- **Error Detection**: The script is able to detect errors in input assebly file.
 
 ## Installation
 
