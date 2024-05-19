@@ -1,4 +1,4 @@
-# TESTBENCH AUTOMATION ON A MIPS-BASED MICROPROCESSOR IMPLEMENTED IN VERILOG
+# ✨TESTBENCH AUTOMATION ON A MIPS-BASED MICROPROCESSOR IMPLEMENTED IN VERILOG
 
 Welcome to my B.Tech Major project! This tool is designed to automate the creation of test benches for a custom designed MIPS processors for a given assembly file. `Navya B`, `Prajwal KP`, `Sarun Babu` and `Vishnu P` where also with me during this Project
 
@@ -105,4 +105,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Thank you for using the Automatic Test Bench Generation tool! If you have any questions or need further assistance, feel free to open an issue in the repository. Happy testing!
+😁 Thank you for using the Automatic Test Bench Generation tool! If you have any questions or need further assistance, feel free to open an issue in the repository. Happy testing!
