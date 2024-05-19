@@ -22,9 +22,38 @@ The primary objective of this project is to streamline the microprocessor verifi
 
 - **32-bit processor**: Processor contain 32 32bit wide registers and each instruction is 32 bit.
 - **5 Stage pipeline**: Instruction Fetch, Decode, Execute, Memory Access, and Write-Back.
-- **Custom Instruction Set**: 24 6 bit custom instruction.
-- ****: .
+- **Custom Instruction Set**: 24 6 bit custom instruction set.
 - **Error Detection**: The script is able to detect errors in input assebly file.
+
+### Instruction set
+| OPCODE     | HEXCODE    | OPERATION     |
+|--------------|:--------------:|:--------------|
+| ADD| 00h| Add between 2 register |
+| SUB| 01h| Subtract between 2 register |
+| AND| 02h| Logical And between 2 register |
+| OR | 03h| Logical Or between 2 register |
+| STL| 04h| Compare between 2 register |
+| MUL| 05h| Multiple between 2 register |
+| NND| 06h| Logical Nand between 2 register |
+| NOR| 07h| Logical Nor between 2 register |
+| XOR| 08h| Logical Xor between 2 register |
+| ROR| 09h| Rotate/Shift the selected register right  |
+| ROL| 0Ah| Rotate/Shift the selected register left |
+| XNR| 0Bh| Logical Xnor between 2 register |
+| LW| 10h| Load to a memory location |
+| SW| 11h| Store from a memory location |
+| ADI| 12h| Add between a register and immediate value |
+| SUI| 13h| Subtract between a register and immediate value |
+| STI| 14h| Compare between a register and immediate value |
+| PUS| 0Ch| Push to Stack |
+| POP| 0Dh| Pop from Stack |
+| JMP| 15h| Jump to an immediate location |
+| JPI| 16h| Conditional Jump |
+| BIF| 17h| Branch If |
+| BNF| 18h| Branch Not-If |
+| HLT| 3Fh| Halt |
+
+
 
 ## Installation
 
