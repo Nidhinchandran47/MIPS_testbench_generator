@@ -10,7 +10,6 @@ Welcome to my B.Tech Major project! This tool is designed to automate the creati
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Configuration](#configuration)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -62,60 +61,31 @@ To install the Automatic Test Bench Generation tool, follow these steps:
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/your-username/automatic-test-bench-generation.git
-    cd automatic-test-bench-generation
+    git clone https://github.com/Nidhinchandran47/MIPS_testbench_generator.git
+    cd MIPS_testbench_generator
     ```
 
-2. **Install dependencies:**
+2. **Set up the environment:**
 
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-3. **Set up the environment:**
-
-    Ensure that you have the necessary tools and compilers for hardware description languages (VHDL, Verilog, SystemVerilog) installed on your system.
+    Ensure that you have the necessary tools and compilers for hardware description languages (Verilog) installed on your system.
 
 ## Usage
 
 Using the Automatic Test Bench Generation tool is straightforward. Here are the basic steps:
 
-1. **Prepare your design specifications and test scenarios.**
+1. **Open the MIPS HDL in complier**
 
 2. **Run the tool:**
 
     ```sh
-    python generate_test_bench.py --input <design_file> --output <output_directory> --language <hdl_language> --config <config_file>
+    python script.py
     ```
-
-    - `--input`: Path to the hardware design file.
-    - `--output`: Directory where the generated test bench files will be saved.
-    - `--language`: Hardware description language (vhdl, verilog, systemverilog).
-    - `--config`: Path to the configuration file (optional).
+    Enter the assembly file name with txt extention.
 
 3. **Review and use the generated test benches** in your verification process.
+   The script will shoe if errors are there in the input, else provide the testbench. Copy it to the compiler and simulate.
 
-## Configuration
 
-The tool can be configured using a configuration file in JSON or YAML format. The configuration file allows you to specify various options, such as signal definitions, clock settings, and test scenarios.
-
-Example configuration file (config.json):
-
-```json
-{
-    "clock_signal": "clk",
-    "reset_signal": "rst",
-    "test_scenarios": [
-        {
-            "name": "basic_functionality",
-            "stimuli": [
-                {"signal": "input1", "value": "0b0010", "time": 10},
-                {"signal": "input2", "value": "0b1100", "time": 20}
-            ]
-        }
-    ]
-}
-```
 
 ## Contributing
 
