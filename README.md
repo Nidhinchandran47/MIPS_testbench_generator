@@ -2,7 +2,7 @@
 
 Welcome to my B.Tech Major project! This tool is designed to automate the creation of test benches for a custom designed MIPS processors for a given assembly file. `Navya B`, `Prajwal KP`, `Sarun Babu` and `Vishnu P` where also with me during this Project
 
-> [!IMPORTANT]
+> [!IMPORTANT] 
 >   THE GENERATED TESTBENCH IS NOT FOR *FULL FUNCTIONALTY VERIFICATION*, FOR A GIVEN ASSEMBLY CODE -> IT GENERATE A TESTBENCH TO RUN THAT ASSEMBLY CODE IN THIS MIPS PROCESSOR
  
 ## Table of Contents
@@ -98,7 +98,6 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 4. **Push to the branch**.
 5. **Create a new Pull Request**.
 
-Please ensure that your code adheres to the project's coding standards and includes appropriate tests.
 
 ## License
 
