@@ -21,14 +21,14 @@
 //
 //
 // Additional Comments:
-//  ©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©©
+//  Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©Â©
 //////////////////////////////////////////////////////////////////////////////////
 
 
 module mips32(
     input clk1,                    // TWO PHASE CLOCK CLOCK TO TRIGGER ADJACENT STAGE WITH A DELAY 
-    input clk2                     // ____/¯\_____/¯\____
-    );                             //_/¯\_____/¯\____
+    input clk2                     // ____/Â¯\_____/Â¯\____
+    );                             //_/Â¯\_____/Â¯\____
     
 //-------------------*?? pipeline intermediate registers ??*---------------------
 
@@ -47,9 +47,9 @@ module mips32(
     reg [31:0] MEM_WB_IR;          //instruction register between MEM and WB
     reg [31:0] MEM_WB_ALUout;      // ALU output between MEM and WB stage
     reg [31:0] MEM_WB_LMD;         // register to load memory data
-    reg [2:0] ID_EX_type;          // visit line no.84 for more info  |
-    reg [2:0] EX_MEM_type;         // visit line no.84 for more info  |  check typess under parameter
-    reg [2:0] MEM_WB_type;         // visit line no.84 for more info  |
+    reg [2:0] ID_EX_type;          // visit line no.88 for more info  |
+    reg [2:0] EX_MEM_type;         // visit line no.88 for more info  |  check typess under parameter
+    reg [2:0] MEM_WB_type;         // visit line no.88 for more info  |
     reg HALTED;                    // State register to be made high if halt instruction is called, This register is checked in each stage foe activation
     reg BRANCH_TAKEN;              // State register to be made high if any branch instruction is called, memory write back process of previous operations are stop if it is high
     
